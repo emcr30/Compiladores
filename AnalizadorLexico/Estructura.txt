@@ -1,0 +1,12 @@
+# Edades
+edad = 18
+    
+    Si edad >= 18
+    {
+        Mostrar("Eres mayor de edad.")
+    
+    Elsmeow
+    {
+        Mostrar("Eres menor de edad.")
+    }
+"""xd"""

@@ -1,0 +1,8 @@
+defmeow factorial_iterativa (n) {
+	producto = 1
+	formeow i in range  (n, 0, -1) {
+producto = producto * i
+}
+returnmeow producto
+}
+printmeoow (factorial_iterativa(5))
