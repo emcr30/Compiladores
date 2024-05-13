@@ -1,0 +1,17 @@
+Defmeow imprimir_multiplos(numero)
+{
+    ifmeow numero > 0
+    {
+        Printmeow("Los múltiplos de", numero, "son:");
+        Formeow i en Rangemeow(1, 10)
+        {
+            Asignameow multiplo = numero * i;
+            Printmeow(" - ", multiplo);
+        }
+    }
+    ifmeow numero <= 0
+    {
+        Printmeow("El número no es válido.");
+    }
+}
+

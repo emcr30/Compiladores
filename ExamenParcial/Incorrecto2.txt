@@ -1,0 +1,17 @@
+Defmeow calcular_cuadrado(numero)
+{
+    Asignameow resultado = numero * numero;
+    Returnmeow resultado;
+}
+
+Defmeow calcular_suma_cuadrados(inicio, fin)
+{
+    Asignameow suma = 0;
+    Formeow i en Rangemeow(inicio, fin + 1)
+    {
+        Asignameow suma = suma + calcular_cuadrado(i);
+    }
+    Returnmeow suma;
+}
+
+Printmeow("La suma de los cuadrados del 1 al 5 es:");
