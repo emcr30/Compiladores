@@ -1,0 +1,24 @@
+Defmeow verificar_numero(numero)
+{
+    Ifmeow numero > 0
+    {
+        Ifmeow numero < 10
+        {
+            Printmeow("El número es mayor que 0 y menor que 10.");
+            Formeow i In Rangemeow(1, 5)
+            {
+                Printmeow("Iteración número:", i);
+            }
+        }
+        Ifmeow numero >= 10
+        {
+            Printmeow("El número es mayor o igual que 10.");
+        }
+    }
+    Ifmeow numero <= 0
+    {
+        Printmeow("El número no es mayor que 0.");
+    }
+    Printmeow("El resultado de la operación es:", resultado);
+}
+Asignameow resultado = numero * 2;
